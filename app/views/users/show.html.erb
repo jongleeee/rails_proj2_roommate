@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title> User Profile </title>
+		<link rel="stylesheet" href="http://jonglee.me/css/normalize.css">
+		<link href='http://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400italic,700italic,400,700,800' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="http://jonglee.me/css/main.css">
+		<link rel="stylesheet" href="http://jonglee.me/css/responsive.css">
+
+		<!-- MetisMenu CSS -->
+    <link href="http://ironsummitmedia.github.io/startbootstrap-sb-admin-2/bower_components/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="http://ironsummitmedia.github.io/startbootstrap-sb-admin-2/dist/css/sb-admin-2.css" rel="stylesheet">
+
+		<meta name="viewport" content="width=    device-width, initial-scale=1.0">			
+	</head>
+	<body>
+		<header>
+			<a href="/" id="logo">
+				<h1> <%= @user.name %> </h1>
+			</a>
+		</header>
+		<div id="wrapper">
+			<section>
+				<img src="http://jonglee.me/img/coffee-code.png" alt="Photograph of Nick" class="profile-photo">
+				<h3> Current House: <%= @house_name %> </h3>
+				<a href="/houses"> Change House </a>
+			</section>
+			<footer>
+				
+				<p> &copy; JONG Y. LEE & DEYI YI </p>
+			</footer>
+		</div>
+	</body>
+</html>

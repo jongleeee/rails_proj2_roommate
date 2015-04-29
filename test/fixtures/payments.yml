@@ -1,0 +1,22 @@
+# == Schema Information
+#
+# Table name: payments
+#
+#  id         :integer          not null, primary key
+#  name       :string
+#  amount     :integer
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#  house_id   :integer
+#  category   :string
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  amount: 1
+
+two:
+  name: MyString
+  amount: 1
