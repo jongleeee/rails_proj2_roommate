@@ -5,4 +5,4 @@ User.create! name:"Deyi Li", email:"deyi@admin.com", password:"password", house:
 
 
 
-Payment.create! name:"Rent April 2015", amount:1000, house: House.find(1)
+Payment.create! name:"Rent April 2015", amount:1000, house: House.find(1), category:"house"
